@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>石取りゲーム</title>
+</head>
+<body>
+    <h1>石取りゲーム</h1>
+	<div class="info" id="info" style="border: none;">
+
+	</div>
+	<div class="info">
+		<h2>
+			残り： <span id="nokori">25</span> 個
+		</h2>
+		<p class="stone" id="stone">
+			
+		</p>
+	</div>
+	<div class="info">
+		<h2>
+			プレイヤー <span id="player"></span> の番
+		</h2>
+
+		<p>
+			石を 
+			<input type="number" id="stone_num" max="3" min="1" value="1">
+				個取る<br>
+			※1度に3個取れます。
+		</p>
+		<button class="btn" id="btn" type="submit">決定</button>
+	</div>
+
+	<script src="js_exam2_basic.js"></script>
+</body>
+</html>
