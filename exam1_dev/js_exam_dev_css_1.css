@@ -1,0 +1,25 @@
+body{
+    font-size: 24px;
+}
+#image_div{
+    height: 200px;
+    width: 400px;
+    border: 1px black solid;
+    text-align: center;
+    padding-bottom: 5%;
+}
+#img{
+    height: 95%;
+    width: 80%;
+}
+#img_str{
+    margin-bottom: 3%;
+}
+input{
+    height: 40px;
+    width: 400px;
+}
+button{
+    height: 40px;
+    width: 100px;
+}
